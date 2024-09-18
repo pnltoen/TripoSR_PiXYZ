@@ -23,6 +23,12 @@ In such cases, you can utilize Pixyz's powerful Python scripting features to aut
 - Created and applied materials with baked texture
 - Exported object in the desired format
 
+### Unity Editor with gltFast
+![After Image](./images/after.png)
+
+Once you export your model as glb file you can import it with Unity and [gltFast package](https://docs.unity3d.com/Packages/com.unity.cloud.gltfast@6.8/manual/installation.html) which support glb's vertexcolor.
+If you are interested in generating shader graph were used to represent the vertex color please refer Sky kim's [shap-e-unity](https://github.com/skykim/shap-e-unity/tree/main)
+
 ## Documentation
 
 For more detailed information about the Pixyz SDK, please refer to the official documentation [here](https://www.pixyz-software.com/documentations/html/2024.2/sdk/apidoc/python/algo.html).
