@@ -9,10 +9,10 @@ This repository contains sample scripts for Pixyz Studio and SDK. After running 
 In such cases, you can utilize Pixyz's powerful Python scripting features to automate these processes and resolve these issues efficiently.
 
 ### Before
-![Before Image](./before.png)
+![Before Image](./images/before.png)
 
 ### After
-![After Image](./after.png)
+![After Image](./images/after.png)
 
 - Cleaned hierarchy
 - Deleted empty trees (occurrences)
@@ -22,6 +22,12 @@ In such cases, you can utilize Pixyz's powerful Python scripting features to aut
 - Decimated polygons
 - Created and applied materials with baked texture
 - Exported object in the desired format
+
+### Unity Editor with gltFast
+![After Image](./images/Editor_(gltFast).png)
+
+Once you export your model as glb file you can import it with Unity and [gltFast package](https://docs.unity3d.com/Packages/com.unity.cloud.gltfast@6.8/manual/installation.html) which support glb's vertexcolor.
+If you are interested in generating shader graph were used to represent the vertex color please refer Sky kim's [shap-e-unity](https://github.com/skykim/shap-e-unity/tree/main)
 
 ## Documentation
 
