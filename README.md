@@ -9,10 +9,10 @@ This repository contains sample scripts for Pixyz Studio and SDK. After running 
 In such cases, you can utilize Pixyz's powerful Python scripting features to automate these processes and resolve these issues efficiently.
 
 ### Before
-![Before Image](./before.png)
+![Before Image](./images/before.png)
 
 ### After
-![After Image](./after.png)
+![After Image](./images/after.png)
 
 - Cleaned hierarchy
 - Deleted empty trees (occurrences)
