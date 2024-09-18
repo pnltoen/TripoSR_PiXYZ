@@ -115,6 +115,6 @@ else:
     core.setProperty(default[0], "Material", str(mat))
 
 #exporting as fbx
-export_name = "pxz\\" + export_format + "." + export_format
+export_name = export_format + "." + export_format
 io.exportScene(export_name, 0)
 #pxz.studio.uploadSceneToUnityCloudAssetManager("14569343989872", "a435a9d0-7748-4792-9fe8-54d72d4fe2e5", 1, export_name, True, True) Need to replace with SDK one
